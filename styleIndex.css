@@ -1,36 +1,31 @@
-body{
-  margin: 0;
-  width: 100vw;
-  height: 100vh;
+#msgReussi{
+  position: absolute;
+  top : 50%;
+  left: 45%;
+  padding : 12px;
+  width: auto;
+  height: auto;
+  background-color: green;
+  color: greenyellow;
+  border-radius: 6px;
+  font-size: 24px;
 }
-
-#page{
+.animal>p{
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.divAnimal{
+  display : grid;
+  grid-template-columns: repeat(5,18%);
+  grid-template-rows: auto;
+  column-gap: 2%;
+  width: 100%;
   height: 100%;
-  width: 100%;
-  display: grid;
-  grid-template-rows: 9% auto;
 }
 
-nav{
-  width: 100%;
-  display: flex;
-  justify-content: space-evenly;
-  padding: 1% 0%;
-  font-size: 30px;
-  border-bottom: 2px solid black;
-  background-color: grey;
-}
-
-nav>a{
-  text-decoration: none;
-  color: black;
-  background-color: white;
-  padding: 6px;
+.animal{
+  padding: 12px;
   border: 1px solid black;
   border-radius: 6px;
-  box-shadow: 1px 1px 1px rgba(0,0,0,0.5);
-}
-
-#contenu{
-  background-color: #E0E0E0;
+  height : 25rem;
 }

@@ -1,0 +1,25 @@
+
+#divSubmit{
+
+  width: 50%;
+  height: 60%;
+}
+#formSubmit{
+  display: grid;
+  text-align: center;
+  grid: repeat(6, 10%) auto / 300px auto;
+  row-gap: 2%;
+  height: 100%;
+}
+input[type="text"], input[type="number"],input[type="file"]{
+  padding: 12px;
+}
+
+input[type="submit"] {
+  align-self: center;
+  justify-self: center;
+  width: 20%;
+  height: 20%;
+  border-radius: 12px;
+  grid-column-end: 3;
+}
