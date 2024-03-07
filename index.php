@@ -36,7 +36,6 @@
       </div>
     </div>
   </div>
-  <b></b>
   <script defer>
     function pouf() {
       document.getElementById('msgReussi').style.display = 'none';
