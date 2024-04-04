@@ -1,0 +1,27 @@
+#divSubmit{
+
+  width: 50%;
+  height: 60%;
+}
+#contenu{
+  height: 100%;
+  flex-direction: column;
+}
+#formSubmit{
+  display: grid;
+  text-align: center;
+  grid-template-rows: repeat(5, 10%);
+  row-gap: 2%;
+  height: 100%;
+}
+input[type="text"], input[type="password"]{
+  padding: 12px;
+}
+
+input[type="submit"] {
+  align-self: center;
+  justify-self: center;
+  padding: 2%;
+  width: 20%;
+  border-radius: 12px;
+}

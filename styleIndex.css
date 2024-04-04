@@ -46,3 +46,27 @@
 #suppr{
   background-color: red;
 }
+#contenu{
+  flex-direction: column;
+}
+
+#API{
+  width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(4,22%);
+  justify-content: center;
+  column-gap: 2%;
+  row-gap: 2%;
+}
+
+#API>div>img{
+  width: 100%;
+  height: 65%;
+}
+
+#API>div{
+  padding: 1%;
+  border: 1px solid black;
+  border-radius: 6px;
+  text-align: center;
+}
